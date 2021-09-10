@@ -1,0 +1,14 @@
+.container {
+    background-color: #0A66C2;  
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+}
+.logo{
+    margin: 12px 80px;
+}
+.rightContent{
+    display: flex;
+    /* background-color:yellow; */
+    margin: 12px 80px;
+}

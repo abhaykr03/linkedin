@@ -1,0 +1,105 @@
+.sideBar{
+    /* margin-right: 80px; */
+    width: 290px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 1014px;
+    top: 108px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.sideBarHeading{
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.logoAndTextContainer{
+padding: 6px;
+}
+.logoAndTextCard{
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: yellow ; */
+    width: 280px;
+    height: 52px;
+    border-radius: 8px;
+}
+.logoAndTextCard:hover{
+    background-color:  rgba(10, 102, 194, 0.1);
+}
+.logoIconContainer > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.titleAndFOllowers{
+    margin-left: 12px;
+}
+.title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.address {
+    display: flex;
+}
+.add{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(51, 51, 51, 0.6);
+}
+h4:after {
+    content: ' \00B7';
+}
+.eyeIcon{
+margin-left: 72px;
+}
+.optionsCard{
+    padding-left: 12px;
+    width: 290px;
+    background-color: #E5E5E5;
+}
+.horizontalList{
+    margin-top: 20px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.horizontalList > li{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    list-style: none;
+}
+.downArrow{
+    padding-left: 2px;
+}
+.threeDot{
+    font-size: 10px;
+    color: #000;
+    padding-left: 20px;
+}
+.fotterLogo > li {
+    list-style: none;
+    color:#0A66C2 ;
+}
+.l1:hover{
+    color: #0A66C2;
+}
+/* .footer{
+  background-color: #F6F7F9;  
+}
+.linkedinCopyrightText{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+    text-decoration: none;
+} */

@@ -1,0 +1,21 @@
+.searchBox {
+    width: 150%;
+    margin: 12px;
+    padding: 8px 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* line-height: 8px; */
+    background-color: #3882CC;
+    color: #fff;
+}
+/* .searchIconAndBoxContainer{
+    display: flex;
+} */
+input[type="search"]{ 
+    padding-left: 50px;
+    font-size: 16px;
+}
+::placeholder {
+    color: #fff;
+}

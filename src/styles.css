@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files   0077b5 */  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, Times, serif,"Helvetica Neue","Fira Sans";
+}
+html {
+    font-size: 16px;
+}
+body{
+    background-color: #E5E5E5;
+}

@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/linkedin'),
+      dir: require('path').join(__dirname, './coverage/wobb-task'),
       subdir: '.',
       reporters: [
         { type: 'html' },

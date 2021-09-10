@@ -1,0 +1,78 @@
+.aboutComponent{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: #fff;
+    width: 913px;
+    border-radius: 8px;
+}
+.aboutHeading{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.aboutDescription{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.5px; 
+    color: #333333;
+}
+.websiteLinksBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px ;
+}
+.figmaWebDetails{
+    width: 427px;
+    height: 96px;
+    border: 1px solid #E0E0E0;   
+    border-radius: 4px;
+    background-color: #fff; 
+    cursor: pointer;  
+}
+.buttonLinksA{
+    list-style: none;
+    text-align: start;
+    cursor: pointer;
+}
+.buttonLinksB{
+    list-style: none;
+    text-align: start;  
+}
+.websiteUrlText{
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #333333;
+    text-decoration: none;
+}
+.fundingText{
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    padding-left: 12px;
+    color: #333333;
+}
+.figmaLink{
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #0A66C2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.booomrangIcon{
+    padding-left: 6px;
+    cursor: pointer;
+}
+.figmaWebDetails:hover{
+    background-color: rgba(10, 102, 194, 0.1);;
+}

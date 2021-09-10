@@ -1,0 +1,130 @@
+.coverComponent {
+    margin: 20px 80px;
+    width: fit-content;
+    position: relative;
+}
+#figmaLogo{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 104px;
+    height: 104px;
+    z-index: 50;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.figmaIcon{
+    padding: 4px;
+}
+.coverImageContainer{
+    width: 913px;
+    height: 364px;
+}
+.coverImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+.coverContent {
+    position: absolute;
+    top: 104px;
+    width: 913px;
+    background-color: #fff;
+    border-radius: 5px;
+
+    /* background-color: rgb(26, 203, 235); */
+}
+.figmaHeading{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+.headingDescription {
+    margin-top: 4px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* .addressHorizontal{
+    display: flex;
+} */
+.address {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+h4:after {
+    content: ' \00B7';
+}
+.add{
+    padding: 0 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(51, 51, 51, 0.6);
+}
+.arrowText{
+    margin-top: 12px;
+    margin-left: 20px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0A66C2;
+}
+.arrowText > span:after {
+    content: ' \2192';
+}
+.buttonsContainer{
+    background-color:#fff;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.followBtn{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    width: 166px;
+    height: 44px;
+    color: #fff;
+    background-color: #0A66C2;
+    border-radius: 4px;
+    padding: 8px 24px;
+    border: none;
+}
+.followBtn:hover {
+    background-color:#0A5BAD;
+}
+.viewWebsiteBtn{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    width: 166px;
+    height: 44px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    border: 1px solid #0A66C2;
+}
+.viewWebsiteBtn:hover{
+    background-color: rgba(10, 102, 194, 0.1);
+    color: #0A66C2;
+}
+.ThreeDot{
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(10, 102, 194, 0.1);
+}
+/* .ThreeDotIcon{
+    max-width: 100%;
+    max-height: 100%;
+} */
